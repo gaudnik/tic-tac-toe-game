@@ -1,0 +1,21 @@
+body {font-family: sans-serif;}
+
+.board {
+    width: 306px; background-color: rgb(216, 246, 246);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 3px;
+    display: grid;
+    border: 1px solid grey;
+    border-radius: 1rem ;
+    cursor: pointer;
+}
+
+.box {
+    background-color: white; display: flex; justify-content: center; align-items: center;
+    font-size: 2rem; color: beige;
+}
+.box:hover {
+    background-color: rgb(223, 244, 237);
+}
+
