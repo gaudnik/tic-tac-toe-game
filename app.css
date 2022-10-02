@@ -13,7 +13,7 @@ body {font-family: sans-serif;}
 
 .box {
     background-color: white; display: flex; justify-content: center; align-items: center;
-    font-size: 2rem; color: beige;
+    font-size: 2rem; color: rgb(56, 59, 61);
 }
 .box:hover {
     background-color: rgb(223, 244, 237);
